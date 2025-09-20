@@ -1324,7 +1324,7 @@ PrefabInstance:
     - target: {fileID: 2936624768719454340, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: MinigameToLaunch
       value: 
-      objectReference: {fileID: 2027294157}
+      objectReference: {fileID: 0}
     - target: {fileID: 4727223250084455988, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_IsActive
       value: 0
