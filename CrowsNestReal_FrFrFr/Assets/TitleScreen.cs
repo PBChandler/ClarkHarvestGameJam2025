@@ -17,7 +17,7 @@ public class TitleScreen : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("sampleScene");
+        SceneManager.LoadScene("Telescope");
     }
 
     public void Credits()
