@@ -88,7 +88,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e986aeb74e27d849aef1cb91f3ae533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTime: 30
+  Startwe: 0
+  targetTime: 60
   targetImage: {fileID: 4432839020468861438}
   currentFillAmount: 0
 --- !u!1 &1900948265407346520
@@ -445,8 +446,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -565,7 +566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -640,15 +641,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4295123, g: 0.7169812, b: 0.6937973, a: 1}
+  m_Color: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 6df48b9a881c77c4683ab162538819a8, type: 3}
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -656,7 +657,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.2
 --- !u!1 &9076317620500130380
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,8 +746,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff06b9f54ac17a0499e1e9e43f48356b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instance: {fileID: 0}
+  instance: {fileID: 3851169962913068399}
   epic: {fileID: 9112799328975734754}
   sprite: {fileID: 7454247904747983525}
   closed: {fileID: 7841339365210495099, guid: 7deeea40a14427b4e8ee9d3d57e29138, type: 3}
   Open: {fileID: -158678511329201689, guid: 7deeea40a14427b4e8ee9d3d57e29138, type: 3}
+  localRef: {fileID: 0}
+  ding: {fileID: 5407293998387908762}

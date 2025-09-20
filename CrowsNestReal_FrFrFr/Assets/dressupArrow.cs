@@ -7,7 +7,8 @@ public class dressupArrow : MonoBehaviour
     public Sprite[] spriteArray;
     int index = 0;
     public SpriteRenderer currentImage;
-
+    //only needed for the finish button
+    public DressUpMinigame localRef;
     private void OnMouseDown()
     {
         myEvent.Invoke();
@@ -40,5 +41,7 @@ public class dressupArrow : MonoBehaviour
     public void testButton()
     {
         Debug.Log("my princess is so beautiful..");
+
+        localRef.CalculateScore();
     }
 }

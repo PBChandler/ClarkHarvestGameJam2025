@@ -144,8 +144,24 @@ PrefabInstance:
     - target: {fileID: 1408513265654307897, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
       propertyPath: 'elements.Array.data[0]'
       value: 
-      objectReference: {fileID: 4727223250084455988}
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550594094392491232, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3276442252351364976, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459212131142392974, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290300556948570881, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922438970016720174, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -229,6 +245,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6900948968977223936, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8716724170562307670, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
       propertyPath: m_Name
       value: DressUpMinigame
@@ -238,11 +258,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
---- !u!1 &4727223250084455988 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5290300556948570881, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}
-  m_PrefabInstance: {fileID: 644178384040551733}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &6900249063151661594 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6283101083708987183, guid: 8c874d97d2895624ca51ab09aefd77f9, type: 3}

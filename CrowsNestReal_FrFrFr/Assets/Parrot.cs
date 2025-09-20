@@ -9,21 +9,33 @@ public class Parrot : MonoBehaviour
     public TextMeshProUGUI epic;
     public Image sprite;
     public Sprite closed, Open;
-
+    public GameManager localRef;
+    bool firstLine = false;
+    public dinghyTimer ding;
     public void Start()
     {
         instance = this;
-        Speak("I'm the King of the Junjel, baby");
+        Invoke("wait", 0.1f);
+    }
+
+    public void wait()
+    {
+        if(localRef.CurrentShipTarget == GameManager.activeShipTarget.Navy)
+        {
+            firstLine = true;
+            Speak("You have one minute to get everything ship-shape before they come and interrogate you!");
+        }
+        
     }
     public void Speak(string text)
     {
         epic.text = "<color=black>"+text+" .";
         StartCoroutine(Fade(text + " ."));
     }
-
+    int index = 0;
     public IEnumerator Fade(string text)
     {
-        int index = 0;
+        
         while(index < text.Length)
         {
             yield return new WaitForSeconds(0.05f);
@@ -40,5 +52,15 @@ public class Parrot : MonoBehaviour
             index++;
         }
         sprite.sprite = closed;
+        index = 0;
+        dialogEnded();
+    }
+
+    public void dialogEnded()
+    {
+        if(firstLine)
+        {
+            ding.Startwe = true;
+        }
     }
 }

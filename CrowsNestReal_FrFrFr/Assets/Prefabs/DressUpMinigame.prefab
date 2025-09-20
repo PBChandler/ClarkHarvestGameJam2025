@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1077315293232881421}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8966183, y: -3.6705332, z: -141.70439}
+  m_LocalPosition: {x: -0.87, y: -3.69, z: -141.70439}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -106,9 +106,9 @@ MonoBehaviour:
   myEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5724125908468038680}
-        m_TargetAssemblyTypeName: dressupArrow, Assembly-CSharp
-        m_MethodName: testButton
+      - m_Target: {fileID: 2205763601483356488}
+        m_TargetAssemblyTypeName: DressUpMinigame, Assembly-CSharp
+        m_MethodName: CalculateScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -120,6 +120,7 @@ MonoBehaviour:
         m_CallState: 2
   spriteArray: []
   currentImage: {fileID: 0}
+  localRef: {fileID: 0}
 --- !u!114 &8730021133619612716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +172,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.06912047, y: -0.32010263}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -181,7 +182,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.945879, y: 1.6402053}
   m_EdgeRadius: 0
 --- !u!50 &3332241965339953909
 Rigidbody2D:
@@ -420,6 +421,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e2e7d8b3798c2d649bf4cb07f2111089, type: 3}
   - {fileID: 21300000, guid: a41c3c4916a45aa40beebcc29c73728b, type: 3}
   currentImage: {fileID: 3354277142364688967}
+  localRef: {fileID: 0}
 --- !u!114 &1152543531952780785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -634,6 +636,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f14c5065d69524a4987d20529be3259a, type: 3}
   - {fileID: 21300000, guid: ab2d4282d243def46b31ee6d3d3057fb, type: 3}
   currentImage: {fileID: 3354277142364688967}
+  localRef: {fileID: 0}
 --- !u!114 &3002199147840048137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -937,6 +940,7 @@ MonoBehaviour:
   - {fileID: 7114214189888914490, guid: 5be4fc536f09f8d42b2600e90c652a2c, type: 3}
   - {fileID: 3626631684449697158, guid: 11f5e16cd7e533e4db2399f3536e888a, type: 3}
   currentImage: {fileID: 6841703171204181420}
+  localRef: {fileID: 0}
 --- !u!1 &3276442252351364976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1171,7 @@ MonoBehaviour:
         m_CallState: 2
   spriteArray: []
   currentImage: {fileID: 0}
+  localRef: {fileID: 0}
 --- !u!1 &3849610104037787301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,6 +1296,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1a26516acf611364bab3f411225674a0, type: 3}
   - {fileID: 21300000, guid: 47efedf972e26d84b8b14736bc0566e1, type: 3}
   currentImage: {fileID: 5112833377173027119}
+  localRef: {fileID: 0}
 --- !u!114 &3592090723622330109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1517,6 +1523,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 924647ad1e26b9c48bb9d01e890b672f, type: 3}
   - {fileID: 21300000, guid: 2a032fe0f399b4a40adad896d351fb9e, type: 3}
   currentImage: {fileID: 6841703171204181420}
+  localRef: {fileID: 0}
 --- !u!114 &312575543970702730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1820,6 +1827,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7ce619dbc771da246964ef8700f38505, type: 3}
   - {fileID: 21300000, guid: 8ed8a8e27c08fab43af3ed1956386d22, type: 3}
   currentImage: {fileID: 5112833377173027119}
+  localRef: {fileID: 0}
 --- !u!1 &5922438970016720174
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,14 +2056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elements:
-  - {fileID: 0}
+  - {fileID: 6900948968977223936}
   - {fileID: 3276442252351364976}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 3459212131142392974}
   - {fileID: 3849610104037787301}
   - {fileID: 5681025852010741651}
@@ -2064,3 +2066,18 @@ MonoBehaviour:
   - {fileID: 4838328012034922760}
   - {fileID: 2741504032525317964}
   - {fileID: 1077315293232881421}
+  - {fileID: 1550594094392491232}
+  - {fileID: 5922438970016720174}
+  hat: {fileID: 5112833377173027119}
+  shirt: {fileID: 6841703171204181420}
+  accessory: {fileID: 3354277142364688967}
+  brit_hat: {fileID: 21300000, guid: af5e86f2411b6184e9a6a162183b1e16, type: 3}
+  brit_shirt: {fileID: 21300000, guid: f22e963b00c424240b03237c4d3cdec9, type: 3}
+  brit_accessory: {fileID: 21300000, guid: ab2d4282d243def46b31ee6d3d3057fb, type: 3}
+  ghost_hat: {fileID: 21300000, guid: 47efedf972e26d84b8b14736bc0566e1, type: 3}
+  ghost_shirt: {fileID: 21300000, guid: 924647ad1e26b9c48bb9d01e890b672f, type: 3}
+  ghost_accessory: {fileID: 21300000, guid: f14c5065d69524a4987d20529be3259a, type: 3}
+  clown_hat: {fileID: 21300000, guid: 1a26516acf611364bab3f411225674a0, type: 3}
+  clown_shirt: {fileID: 21300000, guid: 2a032fe0f399b4a40adad896d351fb9e, type: 3}
+  clown_accessory: {fileID: 21300000, guid: ba9e4f4df62fb7c4395100f8c572611a, type: 3}
+  localRef: {fileID: 0}

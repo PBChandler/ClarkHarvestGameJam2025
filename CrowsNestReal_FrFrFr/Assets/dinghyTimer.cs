@@ -6,7 +6,7 @@ using Unity.VisualScripting;
 
 public class dinghyTimer : MonoBehaviour
 {
-
+    public bool Startwe;
     public float targetTime = 30.0f; //change time in inspector
     public Image targetImage;
     public float currentFillAmount = 0.0f;
@@ -24,16 +24,20 @@ public class dinghyTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        elapsedTime += Time.deltaTime;
-        currentFillAmount = elapsedTime / targetTime;
-        targetImage.fillAmount = currentFillAmount; 
-       // Debug.Log("Current Fill Amount: " + currentFillAmount);
-
-        if (currentFillAmount >= 1f)
+        if(Startwe)
         {
+            elapsedTime += Time.deltaTime;
+            currentFillAmount = elapsedTime / targetTime;
             targetImage.fillAmount = currentFillAmount;
-            timerEnded();
+            // Debug.Log("Current Fill Amount: " + currentFillAmount);
+
+            if (currentFillAmount >= 1f)
+            {
+                targetImage.fillAmount = currentFillAmount;
+                timerEnded();
+            }
         }
+        
     }
 
     void timerEnded()
