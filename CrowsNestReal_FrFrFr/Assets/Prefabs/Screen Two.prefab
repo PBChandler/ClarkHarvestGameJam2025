@@ -270,11 +270,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5217308628390000810}
+  - {fileID: 1957560801196087117}
   - {fileID: 6062783989766644586}
   - {fileID: 5307139326038723672}
   - {fileID: 5849356498240967620}
   - {fileID: 6262034431236906658}
-  - {fileID: 1957560801196087117}
   - {fileID: 7872431334583234421}
   - {fileID: 2558009821744024279}
   - {fileID: 3472356964124169911}
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8957324059118975939, guid: c7f3930133f783c45911b81531271697, type: 3}
+  m_Sprite: {fileID: 7841339365210495099, guid: 7deeea40a14427b4e8ee9d3d57e29138, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -823,3 +823,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instance: {fileID: 0}
   epic: {fileID: 9112799328975734754}
+  sprite: {fileID: 7454247904747983525}
+  closed: {fileID: 7841339365210495099, guid: 7deeea40a14427b4e8ee9d3d57e29138, type: 3}
+  Open: {fileID: -158678511329201689, guid: 7deeea40a14427b4e8ee9d3d57e29138, type: 3}
