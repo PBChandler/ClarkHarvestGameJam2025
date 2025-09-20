@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 210722430}
   - component: {fileID: 210722432}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,7 +523,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6157863705864107411, guid: 7a9c52ef1bf13a141bd25af78990bf8c, type: 3}
+  m_Sprite: {fileID: -4770579910196306562, guid: f921f0be37fc33c488d00ed61c85d26b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -544,7 +544,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 2, z: 1}
+  m_LocalScale: {x: 14, y: 5.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -561,7 +561,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 448f1a27f5a49294fbbe2d09635b37ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boat: {fileID: 780098047}
   spriteRenderer: {fileID: 210722430}
+  scrollSpeed: 0.5
+  lookPosition: 0.5
 --- !u!1 &696903077
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,6 +766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 725672431}
+  position: 0.5
 --- !u!61 &780098048
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -900,8 +904,8 @@ Transform:
   m_GameObject: {fileID: 780098046}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6486, y: 1.902, z: 0}
-  m_LocalScale: {x: 0.8219648, y: 0.7951, z: 1}
+  m_LocalPosition: {x: -13.37, y: 0.99, z: -1}
+  m_LocalScale: {x: 0.1534131, y: 0.32992187, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
