@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
@@ -6,6 +7,14 @@ public class GameManager : MonoBehaviour
     public delegate void dg_int(int score);
     public dg_int dg_OnScoreUpdated;
     public activeShipTarget CurrentShipTarget = activeShipTarget.Navy;
+    public AudioSource source;
+    public List<jukeboxDisc> discs;
+    [System.Serializable]
+    public struct jukeboxDisc
+    {
+        public AudioClip clip;
+        public activeShipTarget target;
+    }
     public int score
     {
         get { return _score; }
@@ -24,8 +33,20 @@ public class GameManager : MonoBehaviour
             CurrentShipTarget = activeShipTarget.Navy;
         }
         dg_OnScoreUpdated += Dummy;
+        SetMusic();
     }
 
+    public void SetMusic()
+    {
+        foreach(jukeboxDisc dis in discs)
+        {
+            if(dis.target == CurrentShipTarget)
+            {
+                source.clip = dis.clip;
+                source.Play();
+            }
+        }
+    }
     public void Dummy(int dum) { }
     // Update is called once per frame
     void Update()
