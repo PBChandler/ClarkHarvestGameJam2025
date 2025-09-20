@@ -329,7 +329,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 988755346}
-  - component: {fileID: 988755347}
   m_Layer: 0
   m_Name: '[DRAGNDROPMANAGER]'
   m_TagString: Untagged
@@ -352,38 +351,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &988755347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 988755345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4705963ef5c58c0478d44d04e88b7c88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseHeld: 0
-  Canvas: {fileID: 1937077955}
-  current: {fileID: 0}
-  maxWeirdWait: 2
 --- !u!224 &1069562340 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3338918191119906542, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}
   m_PrefabInstance: {fileID: 479286940415179505}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1927425504 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5868394683719849753, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
-  m_PrefabInstance: {fileID: 989669971526731861}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d0d6816f73931543b20e3a5ae1e4c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1937077955 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2296970865753322268, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
@@ -573,6 +545,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 761260498}
     m_Modifications:
+    - target: {fileID: 478062386130215528, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128951197083841574, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2296970865753322268, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -661,6 +641,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6721377389451039335, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6987850164030216155, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Name
       value: Minigame Screen
@@ -700,15 +684,15 @@ PrefabInstance:
     - target: {fileID: 7867355613309875160, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1927425504}
+      objectReference: {fileID: 0}
     - target: {fileID: 7867355613309875160, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1927425504}
+      objectReference: {fileID: 0}
     - target: {fileID: 7867355613309875160, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1927425504}
+      objectReference: {fileID: 0}
     - target: {fileID: 7867355613309875160, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2

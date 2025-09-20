@@ -26,17 +26,11 @@ public class DragManager : MonoBehaviour
                 Vector2 localPoint;
                 RectTransformUtility.ScreenPointToLocalPointInRectangle(Canvas.transform as RectTransform, Input.mousePosition, Camera.main, out localPoint);
                 current.me.anchoredPosition = localPoint;
-                weirdWait = 0;
             }
-            if(!mouseHeld && weirdWait < maxWeirdWait)
-            {
-                weirdWait += Time.deltaTime;
-            }
-            if(weirdWait >= maxWeirdWait)
+            else
             {
                 current = null;
             }
-            
         }
         
 
