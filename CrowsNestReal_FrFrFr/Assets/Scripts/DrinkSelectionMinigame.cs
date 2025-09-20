@@ -8,6 +8,7 @@ public class DrinkSelectionMinigame : Minigame
     public Image TeaCup;
     public GameObject TeaBag;
     public TeaSteeper step;
+    public GameManager localRef;
     public void PlayTeaMinigame()
     {
 
@@ -17,6 +18,9 @@ public class DrinkSelectionMinigame : Minigame
     {
         ACTIVE_TEA_COLOR = TeaCup.color;
     }
+    /// <summary>
+    /// for the tea minigame specifically
+    /// </summary>
     public void CalculateScore()
     {
        
@@ -26,6 +30,13 @@ public class DrinkSelectionMinigame : Minigame
 
         float colorDistance = Mathf.Sqrt(rDiff * rDiff + gDiff * gDiff + bDiff * bDiff);
 
+        if(256-colorDistance > 210)
+        {
+            if(localRef.instance.CurrentShipTarget == GameManager.activeShipTarget.Navy)
+            {
+                localRef.instance.score++;
+            }
+        }
         OnEndMinigame(256-colorDistance);
     }
     public void PlayEctoplasmMinigame()
