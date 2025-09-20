@@ -17,12 +17,18 @@ public class DragManager : MonoBehaviour
     public void Update()
     {
         mouseHeld = Input.GetMouseButton(0);
-        Vector2 localPoint;
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(Canvas.transform as RectTransform, Input.mousePosition, Camera.main, out localPoint);
         if (current != null)
         {
+            Vector2 localPoint;
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(Canvas.transform as RectTransform, Input.mousePosition, Camera.main, out localPoint);
             current.GetComponent<RectTransform>().anchoredPosition = localPoint;
+            if(Input.GetMouseButtonUp(0))
+            {
+                current = null;
+            }
         }
+        
+
     }
 
     public void GrabNewDragNDrop(DragNDrop toy)
