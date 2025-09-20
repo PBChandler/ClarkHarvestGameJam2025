@@ -15,6 +15,14 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         instance = this;
+        try
+        {
+            CurrentShipTarget = GameObject.Find("DATADUDE").GetComponent<DATADUDE>().SHIP;
+        }
+        catch
+        {
+            CurrentShipTarget = activeShipTarget.Navy;
+        }
         dg_OnScoreUpdated += Dummy;
     }
 
