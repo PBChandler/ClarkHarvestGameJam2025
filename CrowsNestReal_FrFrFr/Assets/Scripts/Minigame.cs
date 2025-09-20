@@ -12,11 +12,12 @@ public class Minigame : MonoBehaviour
         }
     }
 
-    public virtual void OnEndMinigame(int score)
+    public virtual void OnEndMinigame(float score)
     {
         foreach (GameObject item in elements)
         {
             item.SetActive(false);
         }
+        Debug.Log(score);
     }
 }

@@ -16,7 +16,7 @@ public class dinghyTimer : MonoBehaviour
     {
         if (targetImage == null)
         {
-            Debug.LogError("Target image is not assigned");
+            //Debug.LogError("Target image is not assigned");
             return;
         }
         targetImage.fillAmount = currentFillAmount;
@@ -27,7 +27,7 @@ public class dinghyTimer : MonoBehaviour
         elapsedTime += Time.deltaTime;
         currentFillAmount = elapsedTime / targetTime;
         targetImage.fillAmount = currentFillAmount; 
-        Debug.Log("Current Fill Amount: " + currentFillAmount);
+       // Debug.Log("Current Fill Amount: " + currentFillAmount);
 
         if (currentFillAmount >= 1f)
         {
@@ -38,7 +38,7 @@ public class dinghyTimer : MonoBehaviour
 
     void timerEnded()
     {
-        Debug.Log("Timer ended yay");
+       // Debug.Log("Timer ended yay");
         //Debug.Log("Timer: " + targetTime);
         //Debug.Log("Current Fill Amount: " + currentFillAmount);
     }
