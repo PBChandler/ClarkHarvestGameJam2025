@@ -1153,6 +1153,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 761260498}
     m_Modifications:
+    - target: {fileID: 478062386130215528, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998333438254306552, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095507839265936348, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128951197083841574, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2296970865753322268, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1233,10 +1249,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5338544014462446418, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6009704382768955210, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: localRef
       value: 
       objectReference: {fileID: 1052566218}
+    - target: {fileID: 6721377389451039335, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987850164030216155, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Name
       value: Minigame Screen
