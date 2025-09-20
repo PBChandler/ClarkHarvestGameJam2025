@@ -6,7 +6,7 @@ public class MinigameFramework : MonoBehaviour
     private Minigame currentMinigame;
     public void Start()
     {
-        LaunchMinigame(MinigameToLaunch);
+        //LaunchMinigame(MinigameToLaunch);
     }
     public void LaunchMinigame(Minigame m)
     {
