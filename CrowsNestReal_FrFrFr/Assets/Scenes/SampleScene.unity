@@ -1224,12 +1224,36 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3851169962913068399, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}
+      propertyPath: Open
+      value: 
+      objectReference: {fileID: 2331494287417876681, guid: 3d3f26ba4aa404f4296f49f42740e73a, type: 3}
+    - target: {fileID: 3851169962913068399, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}
+      propertyPath: closed
+      value: 
+      objectReference: {fileID: 1639449792497238006, guid: 3d3f26ba4aa404f4296f49f42740e73a, type: 3}
+    - target: {fileID: 3851169962913068399, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}
       propertyPath: localRef
       value: 
       objectReference: {fileID: 1052566218}
     - target: {fileID: 4892916416587964145, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}
       propertyPath: m_Name
       value: Screen Two
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454247904747983525, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1639449792497238006, guid: 3d3f26ba4aa404f4296f49f42740e73a, type: 3}
+    - target: {fileID: 9112799328975734754, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}
+      propertyPath: m_fontSize
+      value: 53.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112799328975734754, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 53.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112799328975734754, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

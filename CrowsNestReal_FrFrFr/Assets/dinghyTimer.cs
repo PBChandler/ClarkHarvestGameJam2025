@@ -11,7 +11,7 @@ public class dinghyTimer : MonoBehaviour
     public Image targetImage;
     public float currentFillAmount = 0.0f;
     float elapsedTime = 0f;
-
+    public GameObject dialogCutoff;
     private void Start()
     {
         if (targetImage == null)
@@ -42,6 +42,7 @@ public class dinghyTimer : MonoBehaviour
 
     void timerEnded()
     {
+        dialogCutoff.SetActive(true);
        // Debug.Log("Timer ended yay");
         //Debug.Log("Timer: " + targetTime);
         //Debug.Log("Current Fill Amount: " + currentFillAmount);

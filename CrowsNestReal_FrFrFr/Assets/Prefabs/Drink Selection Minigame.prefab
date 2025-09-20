@@ -460,7 +460,7 @@ MonoBehaviour:
   yLowest: 0
   TeaStart: {r: 1, g: 1, b: 1, a: 1}
   TeaTarget: {r: 0.6415094, g: 0.4252261, b: 0.14827341, a: 1}
-  speed: 0.1
+  speed: 0.5
 --- !u!1 &1820201630489904994
 GameObject:
   m_ObjectHideFlags: 0
