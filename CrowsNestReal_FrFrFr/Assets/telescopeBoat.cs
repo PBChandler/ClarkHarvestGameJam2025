@@ -3,6 +3,7 @@ using UnityEngine;
 public class telescopeBoat : MonoBehaviour
 {
     public GameObject panel;
+    public float position;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
