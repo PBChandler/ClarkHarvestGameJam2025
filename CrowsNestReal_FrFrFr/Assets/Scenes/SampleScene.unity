@@ -366,7 +366,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseHeld: 0
   Canvas: {fileID: 1937077955}
-  current: {fileID: 1927425504}
+  current: {fileID: 0}
+  maxWeirdWait: 2
 --- !u!224 &1069562340 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3338918191119906542, guid: a4ffb7b4b14ceec48a2a0d034c1c5ee8, type: 3}

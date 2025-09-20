@@ -9,6 +9,8 @@ public class DragManager : MonoBehaviour
     public RectTransform Canvas;
     //Rupaul
     public DragNDrop current;
+    float weirdWait;
+    public float maxWeirdWait = 0.1f;
     public void Start()
     {
         instance = this;
@@ -19,13 +21,22 @@ public class DragManager : MonoBehaviour
         mouseHeld = Input.GetMouseButton(0);
         if (current != null)
         {
-            Vector2 localPoint;
-            RectTransformUtility.ScreenPointToLocalPointInRectangle(Canvas.transform as RectTransform, Input.mousePosition, Camera.main, out localPoint);
-            current.GetComponent<RectTransform>().anchoredPosition = localPoint;
-            if(Input.GetMouseButtonUp(0))
+            if (mouseHeld)
+            {
+                Vector2 localPoint;
+                RectTransformUtility.ScreenPointToLocalPointInRectangle(Canvas.transform as RectTransform, Input.mousePosition, Camera.main, out localPoint);
+                current.me.anchoredPosition = localPoint;
+                weirdWait = 0;
+            }
+            if(!mouseHeld && weirdWait < maxWeirdWait)
+            {
+                weirdWait += Time.deltaTime;
+            }
+            if(weirdWait >= maxWeirdWait)
             {
                 current = null;
             }
+            
         }
         
 
