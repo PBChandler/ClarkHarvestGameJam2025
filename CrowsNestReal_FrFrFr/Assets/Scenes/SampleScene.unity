@@ -175,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -208,6 +208,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff06b9f54ac17a0499e1e9e43f48356b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &284706412 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1455095138950960454, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+  m_PrefabInstance: {fileID: 989669971526731861}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &486850885
@@ -1177,6 +1188,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1095507839265936348, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990459168728058301, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: teaColor
+      value: 
+      objectReference: {fileID: 284706412}
+    - target: {fileID: 1990459168728058301, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: TeaTarget.b
+      value: 0.14827341
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990459168728058301, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: TeaTarget.g
+      value: 0.4252261
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990459168728058301, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: TeaTarget.r
+      value: 0.6415094
+      objectReference: {fileID: 0}
     - target: {fileID: 2128951197083841574, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1263,12 +1294,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5338544014462446418, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6009704382768955210, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: TeaCup
+      value: 
+      objectReference: {fileID: 284706412}
     - target: {fileID: 6009704382768955210, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: localRef
       value: 
       objectReference: {fileID: 1052566218}
+    - target: {fileID: 6009704382768955210, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: TeaTarget.b
+      value: 0.14901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009704382768955210, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: TeaTarget.g
+      value: 0.42745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009704382768955210, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: TeaTarget.r
+      value: 0.6431373
+      objectReference: {fileID: 0}
     - target: {fileID: 6721377389451039335, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1276,6 +1323,18 @@ PrefabInstance:
     - target: {fileID: 6987850164030216155, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Name
       value: Minigame Screen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502048973622274673, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_Color.b
+      value: 0.14901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502048973622274673, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_Color.g
+      value: 0.42745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502048973622274673, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6431373
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
