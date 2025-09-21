@@ -35,13 +35,21 @@ public class DialogSequence : MonoBehaviour
         if(!win && activeChunk.lines[index].isInstaFail == true)
         {
             localRef.LoadResultsScreen();
+            return;
         }
         if(index + 1 > activeChunk.lines.Count)
         {
             localRef.score++;
-            
             localRef.LoadResultsScreen();
+            return;
         }
+        index++;
+        dialogChunk c = activeChunk;
+        talkyText.text = c.lines[index].displayText;
+        optionOne.text = c.lines[index].opt1;
+        optionTwo.text = c.lines[index].opt2;
+        optionThree.text = c.lines[index].opt3;
+        optionFour.text = c.lines[index].opt4;
     }
     public void SelectDialogChoice(int i)
     {
