@@ -958,7 +958,6 @@ GameObject:
   - component: {fileID: 780098049}
   - component: {fileID: 780098048}
   - component: {fileID: 780098047}
-  - component: {fileID: 780098052}
   m_Layer: 0
   m_Name: Boat
   m_TagString: Untagged
@@ -981,6 +980,15 @@ MonoBehaviour:
   panel: {fileID: 725672431}
   position: 0.5
   backButton: {fileID: 859132265}
+  ships:
+  - {fileID: 683344624155859670, guid: d6ffce6bde6781648bb6e5d3260d2450, type: 3}
+  - {fileID: -5585961625116316947, guid: 13f0fc832fc01714e8bd0bd41bf36d87, type: 3}
+  - {fileID: 7431695767114284538, guid: 27f57d9ffeb88864f8410cd64c960296, type: 3}
+  dialogues:
+  - THE BRITISH ARE COMING OH CRAP!
+  - Ghosts aren't real, what are you- HOLY MOLY THATS A REAL LIFE GHOST SHIP
+  - Are those... clowns? and they're... smoking? what has this world come to...
+  textBox: {fileID: 64144840}
 --- !u!61 &780098048
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1124,20 +1132,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &780098052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 780098046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f50ccea2449cf940b1dc8563279314d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 0
-  startScale: {x: 0, y: 0, z: 0}
 --- !u!1 &818654600
 GameObject:
   m_ObjectHideFlags: 0
