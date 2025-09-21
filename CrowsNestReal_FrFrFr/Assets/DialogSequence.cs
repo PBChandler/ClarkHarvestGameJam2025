@@ -27,6 +27,7 @@ public class DialogSequence : MonoBehaviour
     {
         target = localRef.CurrentShipTarget;
         setSprites(target);
+        setSprites(target);
         index = 0;
         dialogChunk c = chunks.Find(p => p.mode == target);
         talkyText.text = c.lines[index].displayText;

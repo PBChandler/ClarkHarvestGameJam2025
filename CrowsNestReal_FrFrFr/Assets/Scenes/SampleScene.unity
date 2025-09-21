@@ -1916,7 +1916,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].mode
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[1].lines.Array.size
@@ -2029,23 +2029,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[1].opt4
-      value: 'God, your accent sucks. '
+      value: God, your accent sucks.
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[2].opt1
-      value: Will gold suffice?
+      value: "Nah we\u2019s just humble clowns like you\u2019s, enjoy da pie"
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[2].opt2
-      value: (Cry)
+      value: "At least we're not clowns\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[2].opt3
-      value: "You\u2019re not giving us a skele-TON of options"
+      value: '*honk mockingly*'
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[2].opt4
-      value: (Give offering) (Correct)
+      value: No you
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[1].lines.Array.data[0].displayText
@@ -2082,8 +2082,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[2].displayText
-      value: YOU MAY GROVEL, BEG, PRAY FOR MERCY, BUT WE SHALL BRING DEATH UPON YE
-        ALL UNLESS YOU OFFER SOMETHING MORE PRECIOUS THAN YER LIVES
+      value: "By the way, you\u2019s don\u2019t \u2018appen to be pirates do ya?
+        Cause if ya were we\u2019d have\u2019ta knocks ya off the poop deck of ya
+        catch my drift. "
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[1].lines.Array.data[0].correctOption
@@ -2103,15 +2104,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[0].correctOption
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[1].correctOption
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[2].correctOption
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6987850164030216155, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Name
