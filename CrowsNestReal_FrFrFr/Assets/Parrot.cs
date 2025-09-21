@@ -11,6 +11,7 @@ public class Parrot : MonoBehaviour
     public Sprite closed, Open;
     public GameManager localRef;
     bool firstLine = false;
+    public AudioClip talking;
     public dinghyTimer ding;
     public void Start()
     {
@@ -48,7 +49,7 @@ public class Parrot : MonoBehaviour
             {
                 sprite.sprite = Open;
             }
-
+            AudioManager.instance.PlaySoundPitchVariance(talking, 0.9f, 1.1f);
             index++;
         }
         sprite.sprite = closed;

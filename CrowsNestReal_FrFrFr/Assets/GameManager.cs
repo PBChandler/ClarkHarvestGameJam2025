@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public AudioSource source;
     public List<jukeboxDisc> discs;
     public ScoreScreen resultsScreen;
+    public int minigamesFinished = 0;
     [System.Serializable]
     public struct jukeboxDisc
     {
@@ -35,6 +36,11 @@ public class GameManager : MonoBehaviour
         }
         dg_OnScoreUpdated += Dummy;
         SetMusic();
+    }
+
+    public void UpdateMinigamesFinished()
+    {
+        minigamesFinished++;
     }
 
     public void LoadResultsScreen()

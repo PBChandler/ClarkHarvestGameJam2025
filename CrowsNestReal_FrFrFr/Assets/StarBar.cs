@@ -6,6 +6,7 @@ public class StarBar : MonoBehaviour
     public List<Image> stars;
     public Sprite starEmpty, starFull; //starBomb
     public GameManager localref; //can't do static cos of scene transitions
+    public bool resultsScreenOpen;
     int score
     {
         get { return _score; }
@@ -29,6 +30,8 @@ public class StarBar : MonoBehaviour
     {
         foreach(Image star in stars)
         {
+            if(resultsScreenOpen)
+                star.color = Color.white;
             star.sprite = starEmpty;
         }
         for(int i = 0; i < score; i++)

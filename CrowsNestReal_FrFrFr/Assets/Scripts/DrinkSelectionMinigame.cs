@@ -35,6 +35,8 @@ public class DrinkSelectionMinigame : Minigame
             if(localRef.instance.CurrentShipTarget == GameManager.activeShipTarget.Navy)
             {
                 localRef.instance.score++;
+                ScoreScreen.instance.AddTask("Brewed a Propper Cuppa", true);
+                localRef.UpdateMinigamesFinished();
             }
         }
         OnEndMinigame(256-colorDistance);

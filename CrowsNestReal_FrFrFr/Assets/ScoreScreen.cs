@@ -5,12 +5,15 @@ using System.Collections.Generic;
 
 public class ScoreScreen : MonoBehaviour
 {
+    public static ScoreScreen instance;
     public TextMeshProUGUI description;
     public List<GameObject> blowup;
+    public StarBar rend;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Clear();
+        instance = this;
     }
 
     public void Launch()
@@ -19,6 +22,8 @@ public class ScoreScreen : MonoBehaviour
         {
             g.SetActive(true);
         }
+        rend.resultsScreenOpen = true;
+        rend.UpdateScore();
     }
 
     // Update is called once per frame

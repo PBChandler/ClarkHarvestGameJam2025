@@ -47,6 +47,14 @@ public class DressUpMinigame : Minigame
         {
             localRef.score++;
             OnEndMinigame(score);
+            ScoreScreen.instance.AddTask("Equipped Proper Attire", true);
+            localRef.UpdateMinigamesFinished();
+        }
+        else
+        {
+            OnEndMinigame(score);
+            ScoreScreen.instance.AddTask("Equipped Proper Attire", false);
+            localRef.UpdateMinigamesFinished();
         }
     }
 }

@@ -4,6 +4,7 @@ public class telescopeBoat : MonoBehaviour
 {
     public GameObject panel;
     public float position;
+    public GameObject backButton;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,5 +20,6 @@ public class telescopeBoat : MonoBehaviour
     private void OnMouseDown()
     {
         panel.SetActive(true);
+        backButton.SetActive(true);
     }
 }

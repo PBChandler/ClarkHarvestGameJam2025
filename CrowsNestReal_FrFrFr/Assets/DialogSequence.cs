@@ -13,6 +13,8 @@ public class DialogSequence : MonoBehaviour
     public int winningNumber = 0;
     public List<dialogChunk> chunks;
     private dialogChunk activeChunk;
+    public Sprite neutral, happy, angry;
+    public Image awesomeDude;
     public void OnEnable()
     {
         LaunchDialogSequence(GameManager.activeShipTarget.Navy);
@@ -35,11 +37,13 @@ public class DialogSequence : MonoBehaviour
         if(!win && activeChunk.lines[index].isInstaFail == true)
         {
             localRef.LoadResultsScreen();
+            ScoreScreen.instance.AddTask("Verbal Deception", false);
             return;
         }
         if(index >= activeChunk.lines.Count-1)
         {
             localRef.score++;
+            ScoreScreen.instance.AddTask("Verbal Deception", true);
             localRef.LoadResultsScreen();
             return;
         }
@@ -54,16 +58,19 @@ public class DialogSequence : MonoBehaviour
         optionTwo.text = c.lines[index].opt2;
         optionThree.text = c.lines[index].opt3;
         optionFour.text = c.lines[index].opt4;
+        winningNumber = c.lines[index].correctOption;
     }
     public void SelectDialogChoice(int i)
     {
         if(i == winningNumber)
         {
             ContinueDialogSequence(true);
+            awesomeDude.sprite = happy;
         }
         else
         {
             ContinueDialogSequence(false);
+            awesomeDude.sprite = angry;
         }
     }
    
