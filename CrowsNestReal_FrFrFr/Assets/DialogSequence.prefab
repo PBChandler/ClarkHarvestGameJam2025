@@ -195,7 +195,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2505156140659962653}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5923325802868044247}
+        m_TargetAssemblyTypeName: DialogSequence, Assembly-CSharp
+        m_MethodName: SelectDialogChoice
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2249942565433398974
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,7 +220,7 @@ GameObject:
   - component: {fileID: 2073059718317390086}
   - component: {fileID: 7449314735710647702}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: talky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +356,7 @@ GameObject:
   - component: {fileID: 6884037962661973727}
   - component: {fileID: 4140821585904933082}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: bu2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -397,7 +409,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: We're good
+  m_text: ur mom
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1c1004c7d408e524eac7fcc17a6f7a85, type: 2}
   m_sharedMaterial: {fileID: 5271581087339311509, guid: 1c1004c7d408e524eac7fcc17a6f7a85, type: 2}
@@ -424,8 +436,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -588,7 +600,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 777386713027624193}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5923325802868044247}
+        m_TargetAssemblyTypeName: DialogSequence, Assembly-CSharp
+        m_MethodName: SelectDialogChoice
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3117005087273742354
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +625,7 @@ GameObject:
   - component: {fileID: 2279391253908330768}
   - component: {fileID: 1290666204332529753}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: bu1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -681,8 +705,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.7
-  m_fontSizeBase: 13.7
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -783,6 +807,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localRef: {fileID: 0}
+  talkyText: {fileID: 7449314735710647702}
+  optionOne: {fileID: 1290666204332529753}
+  optionTwo: {fileID: 4140821585904933082}
+  optionThree: {fileID: 2333497892975129925}
+  optionFour: {fileID: 8832399063679099151}
+  index: 0
+  winningNumber: 0
+  chunks:
+  - mode: 1
+    lines:
+    - displayText: Good Day! How are you faring?
+      opt1: We're doin' bloody well
+      opt2: Ur mom
+      opt3: We're good, you?
+      opt4: (stay silent)
+      correctOption: 1
+      isInstaFail: 0
+    - displayText: "You wouldn\u2019t have seen any pirates around, would you?"
+      opt1: I am one.
+      opt2: "They\u2019re behind you!"
+      opt3: "Can\u2019t say I \u2018ave, guv\u2019nah (correct)"
+      opt4: (Draw your sword)
+      correctOption: 3
+      isInstaFail: 0
+    - displayText: "I smell something\u2026 is that tea?"
+      opt1: its ur mom
+      opt2: Want a cuppa? (Correct)
+      opt3: Definitely not pirates!
+      opt4: (Attempt to stab)
+      correctOption: 1
+      isInstaFail: 0
 --- !u!1 &3370334580909598185
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,7 +958,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4810705656720339689}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5923325802868044247}
+        m_TargetAssemblyTypeName: DialogSequence, Assembly-CSharp
+        m_MethodName: SelectDialogChoice
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4748516732978424640
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,7 +1058,7 @@ GameObject:
   - component: {fileID: 4569080521964404676}
   - component: {fileID: 2333497892975129925}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: bu3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1044,7 +1111,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: We're good
+  m_text: "We\u2019re good, you?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1c1004c7d408e524eac7fcc17a6f7a85, type: 2}
   m_sharedMaterial: {fileID: 5271581087339311509, guid: 1c1004c7d408e524eac7fcc17a6f7a85, type: 2}
@@ -1071,8 +1138,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1202,7 +1269,7 @@ GameObject:
   - component: {fileID: 8654008787189160574}
   - component: {fileID: 8832399063679099151}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: bu4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1255,7 +1322,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ur Mom
+  m_text: (stay silent)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1c1004c7d408e524eac7fcc17a6f7a85, type: 2}
   m_sharedMaterial: {fileID: 5271581087339311509, guid: 1c1004c7d408e524eac7fcc17a6f7a85, type: 2}
@@ -1282,8 +1349,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1446,7 +1513,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2794297889285771425}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5923325802868044247}
+        m_TargetAssemblyTypeName: DialogSequence, Assembly-CSharp
+        m_MethodName: SelectDialogChoice
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8707802390599171611
 GameObject:
   m_ObjectHideFlags: 0
