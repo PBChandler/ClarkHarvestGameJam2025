@@ -14,15 +14,21 @@ public class DATADUDE : MonoBehaviour
         {
             instance = this;
         }
-        else if(DATADUDE.instance != this)
+        else if(DATADUDE.instance != this && DATADUDE.instance != null)
         {
             Destroy(this.gameObject);
         }
         DontDestroyOnLoad(this.gameObject);
     }
 
+    public void OnSceneLoaded()
+    {
+        Debug.Log("CAN YOU FEEL");
+        
+    }
     public void ChangeShipTarget(GameManager.activeShipTarget shipTarget)
     {
-        instance.SHIP = shipTarget;
+        Debug.Log("LAMAR");
+        SHIP = shipTarget;
     }
 }

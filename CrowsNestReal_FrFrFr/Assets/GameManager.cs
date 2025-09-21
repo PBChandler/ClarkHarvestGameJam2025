@@ -34,13 +34,18 @@ public class GameManager : MonoBehaviour
         {
             CurrentShipTarget = activeShipTarget.Navy;
         }
+        Invoke("wait", 0.1f);
         dg_OnScoreUpdated += Dummy;
         SetMusic();
     }
 
+    public void wait()
+    {
+        CurrentShipTarget = GameObject.Find("DATADUDE").GetComponent<DATADUDE>().SHIP;
+    }
     public void OnEnable()
     {
-        CurrentShipTarget = DATADUDE.instance.SHIP;
+        //CurrentShipTarget = DATADUDE.instance.SHIP;
     }
 
     public void UpdateMinigamesFinished()
