@@ -1911,6 +1911,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: GhostSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[1].mode
       value: 2
       objectReference: {fileID: 0}
@@ -1918,6 +1922,38 @@ PrefabInstance:
       propertyPath: chunks.Array.data[2].mode
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: 'ClownSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 21300000, guid: d35ed08e5fc799e49aa4ff51aab45d73, type: 3}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: 'ClownSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 21300000, guid: c4eaa31f3caecf444982716467fd432f, type: 3}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: 'ClownSprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 794e49e288fa1884d970d268a13134ed, type: 3}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: 'GhostSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 21300000, guid: e98230e4905f780429c4cce404d3c7d2, type: 3}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: 'GhostSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 4661b9d2a3d2c1d43a8b0a676c95e48b, type: 3}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: 'GhostSprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 9bdff26c40768c6408592bc466bfc24e, type: 3}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: 'GhostSprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: 21300000, guid: e98230e4905f780429c4cce404d3c7d2, type: 3}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: 'GhostSprites.Array.data[4]'
+      value: 
+      objectReference: {fileID: 21300000, guid: e98230e4905f780429c4cce404d3c7d2, type: 3}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[1].lines.Array.size
       value: 3

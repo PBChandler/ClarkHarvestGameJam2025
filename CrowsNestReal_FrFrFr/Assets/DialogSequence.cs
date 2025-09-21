@@ -61,7 +61,11 @@ public class DialogSequence : MonoBehaviour
         happy = sprites[0];
         neutral = sprites[1];
         angry = sprites[2];
-        awesomeDude.sprite = neutral;
+        if(neutral != null)
+        {
+            awesomeDude.sprite = neutral;
+        }
+      
     }
 
     public void ContinueDialogSequence(bool win)
