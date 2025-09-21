@@ -47,9 +47,10 @@ public class Parrot : MonoBehaviour
             }
             else
             {
+                AudioManager.instance.PlaySoundPitchVariance(talking, 0.4f, 0.6f);
                 sprite.sprite = Open;
             }
-            AudioManager.instance.PlaySoundPitchVariance(talking, 0.9f, 1.1f);
+
             index++;
         }
         sprite.sprite = closed;
