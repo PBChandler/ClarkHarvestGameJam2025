@@ -638,6 +638,7 @@ MonoBehaviour:
   discs:
   - clip: {fileID: 8300000, guid: f087f3b6fb1ed3c4ba74fa3c19cd50e8, type: 3}
     target: 1
+  resultsScreen: {fileID: 0}
 --- !u!82 &1052566219
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1364,6 +1365,14 @@ PrefabInstance:
       propertyPath: localRef
       value: 
       objectReference: {fileID: 1052566218}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[0].lines.Array.data[1].opt3
+      value: "Can\u2019t say I \u2018ave, guv\u2019nah"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[0].lines.Array.data[2].opt2
+      value: Want a cuppa?
+      objectReference: {fileID: 0}
     - target: {fileID: 6987850164030216155, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Name
       value: Minigame Screen
