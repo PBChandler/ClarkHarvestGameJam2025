@@ -9,8 +9,10 @@ public class dressupArrow : MonoBehaviour
     public SpriteRenderer currentImage;
     //only needed for the finish button
     public DressUpMinigame localRef;
+    public AudioClip clip;
     private void OnMouseDown()
     {
+        AudioManager.instance.PlaySound(clip);
         myEvent.Invoke();
     }
 

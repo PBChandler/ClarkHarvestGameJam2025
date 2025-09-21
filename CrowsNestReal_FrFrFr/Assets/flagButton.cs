@@ -7,6 +7,7 @@ public class flagButton : MonoBehaviour
     public Sprite iconSprite;
     Image iconImage;
     public Color color;
+    public AudioClip clip;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +23,7 @@ public class flagButton : MonoBehaviour
 
     public void setImage()
     {
+        AudioManager.instance.PlaySound(clip);
         image.sprite = flagSprite;
         image.color = color;
     }

@@ -121,6 +121,7 @@ MonoBehaviour:
   spriteArray: []
   currentImage: {fileID: 0}
   localRef: {fileID: 0}
+  clip: {fileID: 8300000, guid: 346cf76f9be9a7247b04e5f6c38c6fd2, type: 3}
 --- !u!114 &8730021133619612716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,6 +423,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a41c3c4916a45aa40beebcc29c73728b, type: 3}
   currentImage: {fileID: 3354277142364688967}
   localRef: {fileID: 0}
+  clip: {fileID: 8300000, guid: 346cf76f9be9a7247b04e5f6c38c6fd2, type: 3}
 --- !u!114 &1152543531952780785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,6 +639,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ab2d4282d243def46b31ee6d3d3057fb, type: 3}
   currentImage: {fileID: 3354277142364688967}
   localRef: {fileID: 0}
+  clip: {fileID: 8300000, guid: 346cf76f9be9a7247b04e5f6c38c6fd2, type: 3}
 --- !u!114 &3002199147840048137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -941,6 +944,7 @@ MonoBehaviour:
   - {fileID: 3626631684449697158, guid: 11f5e16cd7e533e4db2399f3536e888a, type: 3}
   currentImage: {fileID: 6841703171204181420}
   localRef: {fileID: 0}
+  clip: {fileID: 8300000, guid: 346cf76f9be9a7247b04e5f6c38c6fd2, type: 3}
 --- !u!1 &3276442252351364976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1172,6 +1176,7 @@ MonoBehaviour:
   spriteArray: []
   currentImage: {fileID: 0}
   localRef: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!1 &3849610104037787301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,6 +1302,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 47efedf972e26d84b8b14736bc0566e1, type: 3}
   currentImage: {fileID: 5112833377173027119}
   localRef: {fileID: 0}
+  clip: {fileID: 8300000, guid: 346cf76f9be9a7247b04e5f6c38c6fd2, type: 3}
 --- !u!114 &3592090723622330109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1524,6 +1530,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2a032fe0f399b4a40adad896d351fb9e, type: 3}
   currentImage: {fileID: 6841703171204181420}
   localRef: {fileID: 0}
+  clip: {fileID: 8300000, guid: 346cf76f9be9a7247b04e5f6c38c6fd2, type: 3}
 --- !u!114 &312575543970702730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1828,6 +1835,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8ed8a8e27c08fab43af3ed1956386d22, type: 3}
   currentImage: {fileID: 5112833377173027119}
   localRef: {fileID: 0}
+  clip: {fileID: 8300000, guid: 346cf76f9be9a7247b04e5f6c38c6fd2, type: 3}
 --- !u!1 &5922438970016720174
 GameObject:
   m_ObjectHideFlags: 0
