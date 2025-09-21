@@ -15,6 +15,11 @@ public class FlagMinigame : Minigame
 
     public List<epicSet> awesomeSets;
 
+    private void Start()
+    {
+        scripts = new string[] { "Isn't that from the privy?", "Don't tear up my favorite flag...:(" };
+    }
+
     public void CalculateScore()
     {
         int points = 0;

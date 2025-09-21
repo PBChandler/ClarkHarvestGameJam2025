@@ -9,6 +9,11 @@ public class DressUpMinigame : Minigame
     public Sprite ghost_hat, ghost_shirt, ghost_accessory;
     public Sprite clown_hat, clown_shirt, clown_accessory;
     public GameManager localRef;
+
+    private void Start()
+    {
+        scripts = new string[] { "We should make a Roblox game like this...", "Is that ketchup? I hope that's ketchup."};
+    }
     public void CalculateScore()
     {
         int score = 0;

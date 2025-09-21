@@ -1912,6 +1912,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2936624768719454340, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: localRef
+      value: 
+      objectReference: {fileID: 1052566218}
     - target: {fileID: 5152323566672288045, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.size
       value: 2

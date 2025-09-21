@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class Minigame : MonoBehaviour
 {
     public List<GameObject> elements;
+    public string[] scripts;
     public virtual void OnStartMinigame()
     {
         foreach (GameObject item in elements)

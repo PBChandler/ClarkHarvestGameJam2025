@@ -9,6 +9,13 @@ public class DrinkSelectionMinigame : Minigame
     public GameObject TeaBag;
     public TeaSteeper step;
     public GameManager localRef;
+
+
+    private void Start()
+    {
+        scripts = new string[] { "Perry want a cracker?", "Do...do ghosts drink?" };
+    }
+
     public void PlayTeaMinigame()
     {
 
