@@ -838,6 +838,18 @@ MonoBehaviour:
       opt4: (Attempt to stab)
       correctOption: 1
       isInstaFail: 0
+  BritSprites:
+  - {fileID: 1101612082617772604, guid: 1f0667d183828ad499ae8d19db3eb60e, type: 3}
+  - {fileID: 6821740895218433099, guid: 1f0667d183828ad499ae8d19db3eb60e, type: 3}
+  - {fileID: -4476283207928780962, guid: 1f0667d183828ad499ae8d19db3eb60e, type: 3}
+  GhostSprites:
+  - {fileID: 5504891274076840887, guid: e98230e4905f780429c4cce404d3c7d2, type: 3}
+  - {fileID: -3400098935969134412, guid: 4661b9d2a3d2c1d43a8b0a676c95e48b, type: 3}
+  - {fileID: 5410818712918936004, guid: 9bdff26c40768c6408592bc466bfc24e, type: 3}
+  ClownSprites:
+  - {fileID: 5088596516065133353, guid: d35ed08e5fc799e49aa4ff51aab45d73, type: 3}
+  - {fileID: 6193117985854791330, guid: c4eaa31f3caecf444982716467fd432f, type: 3}
+  - {fileID: 1235502879963077045, guid: 794e49e288fa1884d970d268a13134ed, type: 3}
   neutral: {fileID: -4476283207928780962, guid: 1f0667d183828ad499ae8d19db3eb60e, type: 3}
   happy: {fileID: 1101612082617772604, guid: 1f0667d183828ad499ae8d19db3eb60e, type: 3}
   angry: {fileID: 6821740895218433099, guid: 1f0667d183828ad499ae8d19db3eb60e, type: 3}

@@ -13,6 +13,9 @@ public class DialogSequence : MonoBehaviour
     public int winningNumber = 0;
     public List<dialogChunk> chunks;
     private dialogChunk activeChunk;
+    public Sprite[] BritSprites;
+    public Sprite[] GhostSprites;
+    public Sprite[] ClownSprites;
     public Sprite neutral, happy, angry;
     public Image awesomeDude;
     public void OnEnable()
@@ -21,6 +24,7 @@ public class DialogSequence : MonoBehaviour
     }
     public void LaunchDialogSequence(GameManager.activeShipTarget target)
     {
+        setSprites(target);
         index = 0;
         dialogChunk c = chunks.Find(p => p.mode == target);
         talkyText.text = c.lines[index].displayText;
@@ -30,6 +34,30 @@ public class DialogSequence : MonoBehaviour
         optionFour.text = c.lines[index].opt4;
         winningNumber = c.lines[index].correctOption;
         activeChunk = c;
+    }
+    private void setSprites(GameManager.activeShipTarget target)
+    {
+        Sprite[] sprites = null;
+        switch (target)
+        {
+            //case GameManager.activeShipTarget.NULL:
+            //    break;
+            case GameManager.activeShipTarget.Ghost:
+                sprites = GhostSprites;
+                break;
+            case GameManager.activeShipTarget.Navy:
+                sprites = BritSprites;
+                break;
+            case GameManager.activeShipTarget.Clowns:
+                sprites = ClownSprites;
+                break;
+            default:
+                return;
+                //break;
+        }
+        happy = sprites[0];
+        neutral = sprites[1];
+        angry = sprites[2];
     }
 
     public void ContinueDialogSequence(bool win)
