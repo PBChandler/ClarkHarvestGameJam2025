@@ -9,6 +9,7 @@ public class DressUpMinigame : Minigame
     public Sprite ghost_hat, ghost_shirt, ghost_accessory;
     public Sprite clown_hat, clown_shirt, clown_accessory;
     public GameManager localRef;
+    public Button thisButton;
 
     private void Start()
     {
@@ -54,9 +55,11 @@ public class DressUpMinigame : Minigame
             OnEndMinigame(score);
             ScoreScreen.instance.AddTask("Equipped Proper Attire", true);
             localRef.UpdateMinigamesFinished();
+            thisButton.enabled = false;
         }
         else
         {
+            thisButton.enabled = true;
             OnEndMinigame(score);
             ScoreScreen.instance.AddTask("Equipped Proper Attire", false);
             localRef.UpdateMinigamesFinished();
