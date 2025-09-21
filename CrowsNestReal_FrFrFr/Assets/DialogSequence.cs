@@ -25,6 +25,7 @@ public class DialogSequence : MonoBehaviour
     }
     public void LaunchDialogSequence(GameManager.activeShipTarget target)
     {
+        target = localRef.CurrentShipTarget;
         setSprites(target);
         index = 0;
         dialogChunk c = chunks.Find(p => p.mode == target);

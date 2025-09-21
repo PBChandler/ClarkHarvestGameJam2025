@@ -1852,10 +1852,14 @@ PrefabInstance:
       objectReference: {fileID: 1389237319}
     - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
@@ -1863,7 +1867,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1622377187}
     - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6654942320073535347}
+    - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
@@ -1871,17 +1883,49 @@ PrefabInstance:
       value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6075642024735032700, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: localRef
       value: 
       objectReference: {fileID: 1052566218}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[0].lines.Array.data[1].opt3
       value: "Can\u2019t say I \u2018ave, guv\u2019nah"
@@ -1890,16 +1934,199 @@ PrefabInstance:
       propertyPath: chunks.Array.data[0].lines.Array.data[2].opt2
       value: Want a cuppa?
       objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[0].opt1
+      value: (Rattle your bones)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[0].opt2
+      value: "I don\u2019t have a thousand lives! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[0].opt3
+      value: 'Who are you, Davy Jones? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[0].opt4
+      value: "I\u2019m chilled to the BONE! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[1].opt1
+      value: "Sounds like you\u2019re a real numb-SKULL"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[1].opt2
+      value: Skill issue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[1].opt3
+      value: (Stare vacantly)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[1].opt4
+      value: pleasedontkilluspleasepleaseplease
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[2].opt1
+      value: Will gold suffice?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[2].opt2
+      value: (Cry)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[2].opt3
+      value: "You\u2019re not giving us a skele-TON of options"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[2].opt4
+      value: (Give offering) (Correct)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[3].opt1
+      value: Will gold suffice?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[3].opt2
+      value: (Cry)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[3].opt3
+      value: "You\u2019re not giving us a skele-TON of options"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[3].opt4
+      value: (Give offering) (Correct)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[0].opt1
+      value: Do you mean Dunkin Donuts?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[0].opt2
+      value: "man I know! not a single stinkin\u2019 one out in this \u2018ole goddamn
+        ocean"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[0].opt3
+      value: '*honk mockingly*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[0].opt4
+      value: "Ew, Dunkin\u2019s coffee sucks."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[1].opt1
+      value: '*throw pie in clowns face*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[1].opt2
+      value: "Yeah, but you can\u2019t have any CIRCUS FREAK"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[1].opt3
+      value: '*honk mockingly*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[1].opt4
+      value: 'God, your accent sucks. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[2].opt1
+      value: Will gold suffice?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[2].opt2
+      value: (Cry)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[2].opt3
+      value: "You\u2019re not giving us a skele-TON of options"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[2].opt4
+      value: (Give offering) (Correct)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[0].displayText
+      value: PERIL, FOOLISH MORTAL! LAY DOWN YE LIVES OR FACE A THOUSAND DEATHS
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[1].displayText
+      value: WE CANNOT DIE NOR LIVE, LEFT BY THE GODS TO TERRORIZE THE SEVEN SEAS
+        FOR ALL ETERNITY
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[1].isInstaFail
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[2].displayText
+      value: YOU MAY GROVEL, BEG, PRAY FOR MERCY, BUT WE SHALL BRING DEATH UPON YE
+        ALL UNLESS YOU OFFER SOMETHING MORE PRECIOUS THAN YER LIVES
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[3].displayText
+      value: YOU MAY GROVEL, BEG, PRAY FOR MERCY, BUT WE SHALL BRING DEATH UPON YE
+        ALL UNLESS YOU OFFER SOMETHING MORE PRECIOUS THAN YER LIVES
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[0].displayText
+      value: " Ay how fah ya gotta sail befoh ya spot a Dunkies round \u2018ere,
+        am I right fellas?  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[1].displayText
+      value: "Woah Ayy, that Bawston Cream Pie i\u2019m smellin\u2019ere? You best
+        not be holdin\u2019 out on me. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[2].displayText
+      value: YOU MAY GROVEL, BEG, PRAY FOR MERCY, BUT WE SHALL BRING DEATH UPON YE
+        ALL UNLESS YOU OFFER SOMETHING MORE PRECIOUS THAN YER LIVES
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[0].correctOption
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[1].correctOption
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[2].correctOption
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[3].correctOption
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[0].correctOption
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[1].correctOption
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[2].correctOption
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6987850164030216155, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_Name
       value: Minigame Screen
       objectReference: {fileID: 0}
     - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
@@ -1907,7 +2134,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1622377187}
     - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6654942320073535347}
+    - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
@@ -1915,11 +2150,23 @@ PrefabInstance:
       value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8546529433099059128, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8925765678703072177, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
