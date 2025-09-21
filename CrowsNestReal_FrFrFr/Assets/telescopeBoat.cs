@@ -11,6 +11,7 @@ public class telescopeBoat : MonoBehaviour
     public TextMeshProUGUI textBox;
     private Sprite ship;
     private SpriteRenderer spriteRenderer;
+    private float scale = 0.5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -34,6 +35,7 @@ public class telescopeBoat : MonoBehaviour
                 break;
             case GameManager.activeShipTarget.Clowns:
                 i = 2;
+                scale = 0.62085f;
                 break;
             default:
                 break;
@@ -51,7 +53,6 @@ public class telescopeBoat : MonoBehaviour
     {
         panel.SetActive(true);
         backButton.SetActive(true);
-        float scale = 0.5f;
         transform.localScale = new Vector3(scale,scale,1);
         Vector3 pos = transform.localPosition;
         pos.y = 0;
