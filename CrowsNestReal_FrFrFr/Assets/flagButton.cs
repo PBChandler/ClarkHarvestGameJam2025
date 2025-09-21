@@ -6,6 +6,7 @@ public class flagButton : MonoBehaviour
     public Sprite flagSprite;
     public Sprite iconSprite;
     Image iconImage;
+    public Color color;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,5 +23,6 @@ public class flagButton : MonoBehaviour
     public void setImage()
     {
         image.sprite = flagSprite;
+        image.color = color;
     }
 }
