@@ -55,7 +55,7 @@ public class DressUpMinigame : Minigame
             OnEndMinigame(score);
             ScoreScreen.instance.AddTask("Equipped Proper Attire", true);
             localRef.UpdateMinigamesFinished();
-            thisButton.enabled = false;
+            thisButton.enabled = false; 
         }
         else
         {

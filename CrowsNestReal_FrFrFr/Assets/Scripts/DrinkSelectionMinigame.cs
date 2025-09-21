@@ -49,7 +49,10 @@ public class DrinkSelectionMinigame : Minigame
     public void CalculateScore(GameManager.activeShipTarget ship)
     {
         if (ship != localRef.CurrentShipTarget)
+        {
+            OnEndMinigame(0);
             return;
+        }
         if(ship == GameManager.activeShipTarget.Navy)
         {
             float rDiff = (TeaTarget.r * 255f) - (TeaCup.color.r * 255f);
@@ -82,6 +85,7 @@ public class DrinkSelectionMinigame : Minigame
                 ScoreScreen.instance.AddTask("Made Some Ectoplasm", false);
                 localRef.UpdateMinigamesFinished();
             }
+            OnEndMinigame(0);
         }
         if(ship == GameManager.activeShipTarget.Clowns)
         {
@@ -96,6 +100,7 @@ public class DrinkSelectionMinigame : Minigame
                 ScoreScreen.instance.AddTask("Made Some Ectoplasm", false);
                 localRef.UpdateMinigamesFinished();
             }
+            OnEndMinigame(0);
         }
     }
     public void PlayEctoplasmMinigame()

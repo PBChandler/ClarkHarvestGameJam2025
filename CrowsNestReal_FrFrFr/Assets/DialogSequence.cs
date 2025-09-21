@@ -18,6 +18,7 @@ public class DialogSequence : MonoBehaviour
     public Sprite[] ClownSprites;
     public Sprite neutral, happy, angry;
     public Image awesomeDude;
+    
     int score = 0;
     public void OnEnable()
     {
@@ -110,7 +111,36 @@ public class DialogSequence : MonoBehaviour
     }
     public void SelectDialogChoice(int i)
     {
-        if(i == winningNumber)
+        if(i == 1)
+        {
+            activeChunk.lines[index].opt1.Contains("  ");
+            {
+                AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
+            }
+        }
+        if (i == 2)
+        {
+            activeChunk.lines[index].opt2.Contains("  ");
+            {
+                AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
+            }
+        }
+        if (i == 3)
+        {
+            activeChunk.lines[index].opt3.Contains("  ");
+            {
+                AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
+            }
+        }
+        if (i == 4)
+        {
+            activeChunk.lines[index].opt4.Contains("  ");
+            {
+                AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
+            }
+        }
+
+        if (i == winningNumber)
         {
             ContinueDialogSequence(true);
             awesomeDude.sprite = happy;
@@ -130,6 +160,7 @@ public struct dialogLine
     public string opt1, opt2, opt3, opt4;
     public int correctOption;
     public bool isInstaFail;
+    public AudioClip clip;
 }
 [System.Serializable]
 public struct dialogChunk

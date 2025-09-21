@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class EctoplasmMinigame : MonoBehaviour
 {
+    public Minigame hahaEpic;
     public Image image;
     public Sprite[] sprites;
     int index = 0;

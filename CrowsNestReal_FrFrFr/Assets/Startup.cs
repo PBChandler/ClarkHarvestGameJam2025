@@ -4,11 +4,12 @@ public class Startup : MonoBehaviour
 {
     public float delay;
     public AudioClip clip;
+    public AudioSource src;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Invoke("LoadNextScene", delay);
-        AudioManager.instance.PlaySound(clip);
+        src.PlayOneShot(clip);
     }
 
     // Update is called once per frame

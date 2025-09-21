@@ -48,7 +48,8 @@ public class ScoreScreen : MonoBehaviour
                 DATADUDE.instance.ChangeShipTarget(GameManager.activeShipTarget.Clowns);
                 break;
             case GameManager.activeShipTarget.Clowns:
-                DATADUDE.instance.ChangeShipTarget(GameManager.activeShipTarget.NULL);
+                DATADUDE.instance.ChangeShipTarget(GameManager.activeShipTarget.Navy);
+                SceneManager.LoadScene("creditsScene");
                 break;
             default:
                 break;
