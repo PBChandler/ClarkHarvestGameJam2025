@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -147,8 +147,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 6050862178089760018}
-  flagSprite: {fileID: 8957127583345644699, guid: e7106d0296fe58b408faa4ba387c0994, type: 3}
-  iconSprite: {fileID: 8957127583345644699, guid: e7106d0296fe58b408faa4ba387c0994, type: 3}
+  flagSprite: {fileID: 21300000, guid: e556635a7ef66c64ebffba143339a52b, type: 3}
+  iconSprite: {fileID: 21300000, guid: 506900f05211a2e41931e55b9f436808, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &379643587261882706
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +215,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: e3633cbf3095f7d4aa90d2bc91049876, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -289,7 +290,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c9254887584818f4c9a08e7ba472f1fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -364,7 +365,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 5daca862587ada84f8f92ce2b03ac1d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -487,7 +488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -574,7 +575,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 7376364305323949578}
   flagSprite: {fileID: 21300000, guid: 00be295cacb966f4490a0702a0679849, type: 3}
-  iconSprite: {fileID: 21300000, guid: 00be295cacb966f4490a0702a0679849, type: 3}
+  iconSprite: {fileID: 21300000, guid: 585e52a336d9406409606a8fd00b38e5, type: 3}
+  color: {r: 0.13333334, g: 0.14901961, b: 0.48627454, a: 1}
 --- !u!1 &4266275439675893828
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,7 +638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -723,7 +725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 7376364305323949578}
   flagSprite: {fileID: 21300000, guid: 00be295cacb966f4490a0702a0679849, type: 3}
-  iconSprite: {fileID: 21300000, guid: 00be295cacb966f4490a0702a0679849, type: 3}
+  iconSprite: {fileID: 21300000, guid: c9254887584818f4c9a08e7ba472f1fa, type: 3}
+  color: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &4448235537906160226
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,7 +785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.632, b: 0.38622227, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -860,7 +863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -946,8 +949,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 6050862178089760018}
-  flagSprite: {fileID: 8957127583345644699, guid: e7106d0296fe58b408faa4ba387c0994, type: 3}
-  iconSprite: {fileID: 8957127583345644699, guid: e7106d0296fe58b408faa4ba387c0994, type: 3}
+  flagSprite: {fileID: 21300000, guid: 0e13df7e5b61ae448ad04f6d4194f742, type: 3}
+  iconSprite: {fileID: 21300000, guid: 8d7f755e9c0b4cf49b4b2c95cc6aa228, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &4908994851164110661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,7 +1017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 506900f05211a2e41931e55b9f436808, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1088,7 +1092,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 5911cd5a4631ccc408f52477ebf9c2f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1163,7 +1167,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8957324059118975939, guid: c7f3930133f783c45911b81531271697, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 81dc8f252679c8c4c99ed3ecc018cb7f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1234,7 +1238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1321,7 +1325,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 7376364305323949578}
   flagSprite: {fileID: 21300000, guid: 00be295cacb966f4490a0702a0679849, type: 3}
-  iconSprite: {fileID: 21300000, guid: 00be295cacb966f4490a0702a0679849, type: 3}
+  iconSprite: {fileID: 21300000, guid: e3633cbf3095f7d4aa90d2bc91049876, type: 3}
+  color: {r: 0, g: 0.6313726, b: 0.38431376, a: 1}
 --- !u!1 &7359371613382969529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,7 +1392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 585e52a336d9406409606a8fd00b38e5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1462,7 +1467,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 8d7f755e9c0b4cf49b4b2c95cc6aa228, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1576,7 +1581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1662,8 +1667,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 6050862178089760018}
-  flagSprite: {fileID: 8957127583345644699, guid: e7106d0296fe58b408faa4ba387c0994, type: 3}
-  iconSprite: {fileID: 8957127583345644699, guid: e7106d0296fe58b408faa4ba387c0994, type: 3}
+  flagSprite: {fileID: 21300000, guid: 81dc8f252679c8c4c99ed3ecc018cb7f, type: 3}
+  iconSprite: {fileID: 21300000, guid: de7e0b8bf5050f04c93df5b4f9ff74cf, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &8521040655315284030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,7 +1735,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: de7e0b8bf5050f04c93df5b4f9ff74cf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1800,7 +1806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1887,7 +1893,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 7376364305323949578}
   flagSprite: {fileID: 21300000, guid: 00be295cacb966f4490a0702a0679849, type: 3}
-  iconSprite: {fileID: 21300000, guid: 00be295cacb966f4490a0702a0679849, type: 3}
+  iconSprite: {fileID: 21300000, guid: 5daca862587ada84f8f92ce2b03ac1d4, type: 3}
+  color: {r: 1, g: 0.4156863, b: 0.81568635, a: 1}
 --- !u!1 &9138300228314126593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,7 +1956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2035,5 +2042,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 6050862178089760018}
-  flagSprite: {fileID: 8957127583345644699, guid: e7106d0296fe58b408faa4ba387c0994, type: 3}
-  iconSprite: {fileID: 8957127583345644699, guid: e7106d0296fe58b408faa4ba387c0994, type: 3}
+  flagSprite: {fileID: 21300000, guid: 7fbda21a1cf358f4ba425185cc05bb7f, type: 3}
+  iconSprite: {fileID: 21300000, guid: 5911cd5a4631ccc408f52477ebf9c2f3, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 1}
