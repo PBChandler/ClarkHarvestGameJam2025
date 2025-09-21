@@ -5,6 +5,8 @@ public class FlagMinigame : Minigame
 {
     public Image foreground, background;
     public GameManager localRef;
+    public Button thisButton;
+
     [System.Serializable]
     public struct epicSet
     {
@@ -28,6 +30,7 @@ public class FlagMinigame : Minigame
         if(background.color == work.validBGColor) { points += 1; };
         if(points == 2)
         {
+            thisButton.enabled = false;
             OnEndMinigame(points);
             localRef.score++;
             ScoreScreen.instance.AddTask("Created The Right Flag", true);
@@ -35,6 +38,7 @@ public class FlagMinigame : Minigame
         }
         else
         {
+            thisButton.enabled = true;
             OnEndMinigame(points);
             ScoreScreen.instance.AddTask("Created The Right Flag", false);
             localRef.UpdateMinigamesFinished();

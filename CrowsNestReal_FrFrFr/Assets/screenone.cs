@@ -16,7 +16,7 @@ public class screenone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(localRef.minigamesFinished >= 3 && !donezo)
+        if(localRef.score >= 3 && !donezo)
         {
             finishedButton.SetActive(true);
             donezo = true;
