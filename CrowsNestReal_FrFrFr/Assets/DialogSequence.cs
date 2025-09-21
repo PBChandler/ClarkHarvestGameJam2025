@@ -21,7 +21,7 @@ public class DialogSequence : MonoBehaviour
     int score = 0;
     public void OnEnable()
     {
-        LaunchDialogSequence(GameManager.activeShipTarget.Navy);
+        LaunchDialogSequence(localRef.CurrentShipTarget);
     }
     public void LaunchDialogSequence(GameManager.activeShipTarget target)
     {
