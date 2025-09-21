@@ -656,6 +656,10 @@ MonoBehaviour:
   discs:
   - clip: {fileID: 8300000, guid: f087f3b6fb1ed3c4ba74fa3c19cd50e8, type: 3}
     target: 1
+  - clip: {fileID: 8300000, guid: 281c75c5090b3e44fa0bfac7d3499023, type: 3}
+    target: 2
+  - clip: {fileID: 8300000, guid: f04103c4b9c39ac4789dd20a92ba35a8, type: 3}
+    target: 3
   resultsScreen: {fileID: 648948873}
   minigamesFinished: 0
 --- !u!82 &1052566219

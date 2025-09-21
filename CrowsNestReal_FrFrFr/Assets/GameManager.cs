@@ -36,12 +36,13 @@ public class GameManager : MonoBehaviour
         }
         Invoke("wait", 0.1f);
         dg_OnScoreUpdated += Dummy;
-        SetMusic();
+       
     }
 
     public void wait()
     {
         CurrentShipTarget = GameObject.Find("DATADUDE").GetComponent<DATADUDE>().SHIP;
+        SetMusic();
     }
     public void OnEnable()
     {
