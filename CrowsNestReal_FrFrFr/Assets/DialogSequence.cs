@@ -37,13 +37,17 @@ public class DialogSequence : MonoBehaviour
             localRef.LoadResultsScreen();
             return;
         }
-        if(index + 1 > activeChunk.lines.Count)
+        if(index >= activeChunk.lines.Count-1)
         {
             localRef.score++;
             localRef.LoadResultsScreen();
             return;
         }
-        index++;
+        if(index < activeChunk.lines.Count)
+        {
+            index++;
+        }
+       
         dialogChunk c = activeChunk;
         talkyText.text = c.lines[index].displayText;
         optionOne.text = c.lines[index].opt1;

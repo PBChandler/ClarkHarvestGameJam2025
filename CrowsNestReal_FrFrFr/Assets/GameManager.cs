@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadResultsScreen()
     {
-
+        resultsScreen.Launch();
     }
     public void SetMusic()
     {
