@@ -18,7 +18,7 @@ public class DialogSequence : MonoBehaviour
     public Sprite[] ClownSprites;
     public Sprite neutral, happy, angry;
     public Image awesomeDude;
-   
+    int score = 0;
     public void OnEnable()
     {
         LaunchDialogSequence(GameManager.activeShipTarget.Navy);
@@ -63,6 +63,10 @@ public class DialogSequence : MonoBehaviour
 
     public void ContinueDialogSequence(bool win)
     {
+        if(win)
+        {
+            score++;
+        }
         if(!win && activeChunk.lines[index].isInstaFail == true)
         {
             localRef.LoadResultsScreen();
@@ -71,8 +75,16 @@ public class DialogSequence : MonoBehaviour
         }
         if(index >= activeChunk.lines.Count-1)
         {
-            localRef.score++;
-            ScoreScreen.instance.AddTask("Verbal Deception", true);
+            if(score >= activeChunk.lines.Count-1)
+            {
+                localRef.score++;
+                ScoreScreen.instance.AddTask("Verbal Deception", true);
+            }
+            else
+            {
+                ScoreScreen.instance.AddTask("Verbal Deception", false);
+            }
+            
             localRef.LoadResultsScreen();
             return;
         }

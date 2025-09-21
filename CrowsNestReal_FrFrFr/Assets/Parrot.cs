@@ -30,6 +30,7 @@ public class Parrot : MonoBehaviour
     }
     public void Speak(string text)
     {
+        StopAllCoroutines();
         epic.text = "<color=black>"+text+" .";
         StartCoroutine(Fade(text + " ."));
     }

@@ -2,6 +2,7 @@ using UnityEngine;
 //using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class ScoreScreen : MonoBehaviour
 {
@@ -32,6 +33,28 @@ public class ScoreScreen : MonoBehaviour
         
     }
 
+    public void OnComplete()
+    {
+        Debug.Log("KENDRICK");
+        switch (DATADUDE.instance.SHIP)
+        {
+            case GameManager.activeShipTarget.NULL:
+                SceneManager.LoadScene("TitleScreen");
+                break;
+            case GameManager.activeShipTarget.Navy:
+                DATADUDE.instance.ChangeShipTarget(GameManager.activeShipTarget.Ghost);
+                break;
+            case GameManager.activeShipTarget.Ghost:
+                DATADUDE.instance.ChangeShipTarget(GameManager.activeShipTarget.Clowns);
+                break;
+            case GameManager.activeShipTarget.Clowns:
+                DATADUDE.instance.ChangeShipTarget(GameManager.activeShipTarget.NULL);
+                break;
+            default:
+                break;
+        }
+
+    }
     public void AddTask(string taskName, bool completed)
     {
         if (completed)

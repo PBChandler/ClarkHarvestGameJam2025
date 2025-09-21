@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         instance = this;
         try
         {
-            CurrentShipTarget = GameObject.Find("DATADUDE").GetComponent<DATADUDE>().SHIP;
+            
         }
         catch
         {
@@ -36,6 +36,11 @@ public class GameManager : MonoBehaviour
         }
         dg_OnScoreUpdated += Dummy;
         SetMusic();
+    }
+
+    public void OnEnable()
+    {
+        CurrentShipTarget = DATADUDE.instance.SHIP;
     }
 
     public void UpdateMinigamesFinished()
