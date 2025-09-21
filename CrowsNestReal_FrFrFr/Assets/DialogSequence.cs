@@ -18,6 +18,7 @@ public class DialogSequence : MonoBehaviour
     public Sprite[] ClownSprites;
     public Sprite neutral, happy, angry;
     public Image awesomeDude;
+   
     public void OnEnable()
     {
         LaunchDialogSequence(GameManager.activeShipTarget.Navy);
