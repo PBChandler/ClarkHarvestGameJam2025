@@ -651,7 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instance: {fileID: 1052566218}
-  CurrentShipTarget: 1
+  CurrentShipTarget: 2
   source: {fileID: 1052566219}
   discs:
   - clip: {fileID: 8300000, guid: f087f3b6fb1ed3c4ba74fa3c19cd50e8, type: 3}
@@ -1796,7 +1796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2493892450719344224, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2936624768719454340, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: localRef
