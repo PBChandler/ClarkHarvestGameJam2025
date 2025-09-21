@@ -221,6 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 2
+  clip: {fileID: 8300000, guid: f9fba48678cde6146ac71ed0d6ac27db, type: 3}
 --- !u!95 &162636068
 Animator:
   serializedVersion: 7
@@ -564,8 +565,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hobby Horse Inc.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5e464d71d4c485e4c9a49a677906fc0b, type: 2}
+  m_sharedMaterial: {fileID: 4277654155603172658, guid: 5e464d71d4c485e4c9a49a677906fc0b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
