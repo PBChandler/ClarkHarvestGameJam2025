@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public activeShipTarget CurrentShipTarget = activeShipTarget.Navy;
     public AudioSource source;
     public List<jukeboxDisc> discs;
-    public ScoreScreen score;
+    //public ScoreScreen score;
     [System.Serializable]
     public struct jukeboxDisc
     {
