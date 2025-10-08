@@ -2038,8 +2038,12 @@ PrefabInstance:
       value: Want a cuppa?
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[1].lines.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1616b21d7a725ee49bb33806fca5aeb0, type: 3}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[1].lines.Array.data[0].opt1
-      value: (Rattle your bones)
+      value: '(Rattle your bones)  '
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[1].lines.Array.data[0].opt2
@@ -2083,7 +2087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[1].lines.Array.data[2].opt4
-      value: (Give offering) (Correct)
+      value: (Give offering)
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[1].lines.Array.data[3].opt1
@@ -2102,6 +2106,10 @@ PrefabInstance:
       value: (Give offering) (Correct)
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
+      propertyPath: chunks.Array.data[2].lines.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2ba4ed8b2dec2b04099563c52863167d, type: 3}
+    - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[0].opt1
       value: Do you mean Dunkin Donuts?
       objectReference: {fileID: 0}
@@ -2112,7 +2120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[0].opt3
-      value: '*honk mockingly*'
+      value: '*honk mockingly*  '
       objectReference: {fileID: 0}
     - target: {fileID: 6644374284741329208, guid: 1dc14e878800b23419e696a45d95d3ac, type: 3}
       propertyPath: chunks.Array.data[2].lines.Array.data[0].opt4

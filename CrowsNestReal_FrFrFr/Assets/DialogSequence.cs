@@ -111,34 +111,42 @@ public class DialogSequence : MonoBehaviour
     }
     public void SelectDialogChoice(int i)
     {
-        if(i == 1)
+        try
         {
-            activeChunk.lines[index].opt1.Contains("  ");
+            if (i == 1)
             {
-                AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
+                activeChunk.lines[index].opt1.Contains("  ");
+                {
+                    AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
+                }
+            }
+            if (i == 2)
+            {
+                activeChunk.lines[index].opt2.Contains("  ");
+                {
+                    AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
+                }
+            }
+            if (i == 3)
+            {
+                activeChunk.lines[index].opt3.Contains("  ");
+                {
+                    AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
+                }
+            }
+            if (i == 4)
+            {
+                activeChunk.lines[index].opt4.Contains("  ");
+                {
+                    AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
+                }
             }
         }
-        if (i == 2)
+        catch
         {
-            activeChunk.lines[index].opt2.Contains("  ");
-            {
-                AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
-            }
+
         }
-        if (i == 3)
-        {
-            activeChunk.lines[index].opt3.Contains("  ");
-            {
-                AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
-            }
-        }
-        if (i == 4)
-        {
-            activeChunk.lines[index].opt4.Contains("  ");
-            {
-                AudioManager.instance.PlaySound(activeChunk.lines[index].clip);
-            }
-        }
+        
 
         if (i == winningNumber)
         {
